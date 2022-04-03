@@ -1,0 +1,32 @@
+img {
+    height: 200px;
+}
+
+mat-card {
+    margin: 1vh 1vw;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+mat-card>mat-card-content>p {
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+mat-card>mat-card-content>h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    mat-card {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}

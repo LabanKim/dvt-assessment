@@ -1,0 +1,6 @@
+<div class="container">
+    <app-search-artist (onSearchValue)="searchArtist($event)"></app-search-artist>
+    <div class="artist-list-section">
+        <app-artist-card *ngFor="let artist of artistList" [artistDetails]="artist"></app-artist-card>
+    </div>
+</div>

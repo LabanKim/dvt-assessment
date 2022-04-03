@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>Top Tracks</h2>
+    <app-track-item 
+        *ngFor="let track of trackList; index as i" 
+        [index]="i + 1" 
+        [track]="track">
+    </app-track-item>
+</div>

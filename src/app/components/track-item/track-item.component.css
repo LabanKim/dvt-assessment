@@ -1,0 +1,12 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vh 2vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.track-name {
+    font-size: 18px;
+    margin: 0 5px;
+}

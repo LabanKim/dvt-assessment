@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    padding: 5vh 5vw;
+}
+
+.details-header {
+    display: flex;
+}
+
+.artist-details-section {
+    flex: 2;
+}
+
+.tracklist-section {
+    flex: 1;
+}
+
+.albums-section {
+    padding: 5vh 0;
+}
+
+.albums-section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .details-header {
+        flex-direction: column;
+    }
+
+    .tracklist-section {
+        padding-top: 2vh;
+    }
+}

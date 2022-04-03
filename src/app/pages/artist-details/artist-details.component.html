@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="details-header">
+        <div class="artist-details-section">
+            <app-artist-banner [artistName]="artistDetails.name" [image]="artistDetails.picture_medium"
+                [fans]="artistDetails.nb_fan">
+            </app-artist-banner>
+        </div>
+        <div class="tracklist-section">
+            <app-track-list [artistId]="artistId"></app-track-list>
+        </div>
+    </div>
+
+    <div class="albums-section">
+        <h2>Albums</h2>
+        <div>
+            <app-album-item *ngFor="let album of artistAlbums" [album]="album"></app-album-item>
+        </div>
+    </div>
+</div>

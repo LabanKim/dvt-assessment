@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    padding: 5vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artist-list-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

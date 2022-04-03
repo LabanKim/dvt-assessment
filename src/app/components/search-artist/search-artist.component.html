@@ -1,0 +1,8 @@
+
+<form class="form">
+    <mat-form-field class="form-field" appearance="outline">
+        <mat-label>Search artist</mat-label>
+        <mat-icon matPrefix style="margin-right: 1rem;">search</mat-icon>
+        <input matInput placeholder="Artist name" #searchBox id="search-box" (input)="search(searchBox.value)">
+    </mat-form-field>
+</form>
